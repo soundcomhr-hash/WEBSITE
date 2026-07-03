@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>משחקי הקצב — שיעורים לחיים</title>
+<meta name="description" content="משחקי הקצב — פתרון מוזיקלי כולל לחינוך המיוחד ולשילובים. תכנית סולם (גפ״ן), התזמורת הדיגיטלית, וחוגי מוזיקה מותאמים אישית.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700;900&family=Heebo:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav__pill">
+    <a href="#top" class="nav__logo" id="navLogo">משחקי <b>הקצב</b></a>
+    <button class="mnav__trigger" id="mnavTrigger" aria-label="פתחו תפריט"><span class="mnav__cta">לחץ כאן</span><span class="mnav__burger" aria-hidden="true"><span></span><span></span><span></span></span></button>
+    <div class="nav__links" id="navLinks">
+      <a href="#orchestra">תזמורת דיגיטלית</a>
+      <div class="nav__dd" id="gefenDd">
+        <a href="#sulam" class="nav__ddtoggle" id="gefenToggle">תכניות גפ״ן<span class="caret">▾</span></a>
+        <div class="nav__ddmenu" id="gefenMenu">
+          <a href="#sulam">סולם · 54711</a>
+          <a href="#music">מוסיקה לכולם · 55523</a>
+        </div>
+      </div>
+      <a href="#hugim">חוגים מיוחדים</a>
+      <a href="#contact" class="cta">צרו קשר</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="תפריט"><span></span><span></span><span></span></button>
+    <div class="mmenu" id="mmenu">
+      <div class="mmenu__label">תכניות לימודים</div>
+      <a class="sub" href="#sulam" data-mv="sulam">סולם · 54711 · למטרות חברתיות ורגשיות</a>
+      <a class="sub" href="#music" data-mv="music">מוסיקה לכולם · 55523 · לכלל תלמידי בית הספר</a>
+      <div class="mmenu__div"></div>
+      <a href="#hugim" data-mv="hugim">חוגים מיוחדים</a>
+      <a href="#orchestra" data-mv="orchestra">החזון שלנו</a>
+      <a href="#contact" data-mv="contact">צרו קשר</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+    <div class="hero__scene">
+      <div class="hero__stack" aria-hidden="true">
+        <img class="hero__sky"  width="3840" height="2560" src="assets/img-02.webp" alt="">
+        <img class="hero__mtn"  width="3840" height="2560" src="assets/img-03.webp" alt="">
+        <img class="hero__tree" width="3840" height="2560" src="assets/img-04.webp" alt="">
+      </div>
+      <div class="hero__titlebox">
+        <h1 class="hero__t1">משחקי <b>הקצב.</b></h1>
+        <div class="hero__t2">שיעורים לחיים.</div>
+        <svg class="hero__rule" viewBox="0 0 537 20" aria-hidden="true">
+          <line x1="14" y1="10" x2="523" y2="10" stroke="#E8854B" stroke-width="3"/>
+          <path d="M2 10 L16 3 L16 17 Z" fill="#E8854B"/>
+          <rect x="518" y="3.2" width="13.6" height="13.6" fill="#E8854B" transform="rotate(45 524.8 10)"/>
+        </svg>
+      </div>
+    </div>
+  </header>
+
+<!-- ============ התזמורת הדיגיטלית ============ -->
+<section class="sec sec--alt" id="orchestra">
+    <div class="cornermark" aria-hidden="true"><span class="cornermark__name">משחקי <b>הקצב</b></span><div class="cornermark__tree"></div></div>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">החזון שלנו</div>
+      <h2>התזמורת הדיגיטלית</h2>
+      <p class="lead">כל אדם יכול להיות חלק מאותה מוזיקה — בלי קשר לגיל, ובלי קשר ליכולת. בעזרת הטכנולוגיה, מבוגרים וילדים מנגנים יחד באותו רגע, כשכל משתתף מקבל אתגר שמתאים בדיוק לו. הכל דרך מקלדת ייחודית שבה אין תווים, רק צבעים — בלי צורך בידע מוזיקלי מוקדם.</p>
+      <p class="quote">״אף אחד לא נשאר בחוץ, ואף אחד לא משתעמם.״</p>
+      <div class="keys" dir="ltr" aria-label="המקלדת הצבעונית — לחצו או החליקו לנגן">
+        <div class="key"><span class="key__letter">C</span><b data-note="C4"><i class="cap" style="background:#FD0200"></i><i class="bk" aria-hidden="true"></i></b><span class="key__sol">דו</span></div>
+        <div class="key"><span class="key__letter">D</span><b data-note="D4"><i class="cap" style="background:#AA753F"></i><i class="bk" aria-hidden="true"></i></b><span class="key__sol">רה</span></div>
+        <div class="key"><span class="key__letter">E</span><b data-note="E4"><i class="cap" style="background:#D2CCC0"></i></b><span class="key__sol">מי</span></div>
+        <div class="key"><span class="key__letter">F</span><b data-note="F4"><i class="cap" style="background:#00A6D6"></i><i class="bk" aria-hidden="true"></i></b><span class="key__sol">פה</span></div>
+        <div class="key"><span class="key__letter">G</span><b data-note="G4"><i class="cap" style="background:#191919"></i><i class="bk" aria-hidden="true"></i></b><span class="key__sol">סול</span></div>
+        <div class="key"><span class="key__letter">A</span><b data-note="A4"><i class="cap" style="background:#F8E816"></i><i class="bk" aria-hidden="true"></i></b><span class="key__sol">לה</span></div>
+        <div class="key"><span class="key__letter">B</span><b data-note="B4"><i class="cap" style="background:#21A645"></i></b><span class="key__sol">סי</span></div>
+        <div class="key"><span class="key__letter">c</span><b data-note="C5" class="oct"><i class="cap" style="background:#FD0200"></i></b><span class="key__sol">דו</span></div>
+      </div>
+      <p class="keynote">לחצו או החליקו על הצבעים כדי לנגן</p>
+      <span class="pielinks">
+        <a href="#" class="playpiece" id="playPiece">נגנו יצירה לדוגמה ♪</a>
+        <a href="#" class="explainlink" id="explainLink">האזינו להסבר קצר שלי</a>
+      </span>
+      <div class="notation" id="notation" dir="ltr" aria-hidden="true">
+        <div class="m">
+          <div class="c"><i class="nb" style="background:#FD0200"></i></div>
+          <div class="c"><i class="nb" style="background:#FD0200"></i></div>
+          <div class="c"><i class="nb" style="background:#191919"></i></div>
+          <div class="c"><i class="nb" style="background:#191919"></i></div>
+        </div>
+        <div class="m">
+          <div class="c"><i class="nb" style="background:#F8E816"></i></div>
+          <div class="c"><i class="nb" style="background:#F8E816"></i></div>
+          <div class="c"><i class="nb" style="background:#191919"></i></div>
+          <div class="c"><i class="tie" style="background:#191919"></i></div>
+        </div>
+        <div class="m">
+          <div class="c"><i class="nb" style="background:#00A6D6"></i></div>
+          <div class="c"><i class="nb" style="background:#00A6D6"></i></div>
+          <div class="c"><i class="nb" style="background:#D2CCC0"></i></div>
+          <div class="c"><i class="nb" style="background:#D2CCC0"></i></div>
+        </div>
+        <div class="m">
+          <div class="c"><i class="nb" style="background:#AA753F"></i></div>
+          <div class="c"><i class="nb" style="background:#AA753F"></i></div>
+          <div class="c"><i class="nb" style="background:#FD0200"></i></div>
+          <div class="c"><i class="tie" style="background:#FD0200"></i></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ סולם ============ -->
+<section class="sec" id="sulam">
+    <div class="cornermark" aria-hidden="true"><span class="cornermark__name">משחקי <b>הקצב</b></span><div class="cornermark__tree"></div></div>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="split">
+        <div class="split__text">
+          <h2>תכנית סולם</h2>
+          <span class="badge"><span class="dot"></span>תכנית מספר - 54711 במאגר גפ״ן</span>
+          <p class="lead">תכנית שנתית שנותנת לתלמידים כלים לקדם את מצבם הרגשי והחברתי, בכוחות עצמם — דרך למידה חברתית, מבוססת פרויקטים ושימוש יצירתי בטכנולוגיה מוסיקלית.</p>
+          <div class="imgslot-frame"><img class="imgslot-photo" src="assets/photo-class.png" alt="כיתת מוסיקה עם מקלדות צבעוניות"></div>
+          <p class="lead">לקראת סוף השנה התלמידים זוכים לראות פרויקט שהם עבדו עליו ביחד, צומח וגדל לכדי תוצר סופי מרשים.</p>
+          <div class="tags">
+            <span>שילוב והכלה כעיקרון מנחה</span>
+            <span>טיפוח תחושת שייכות</span>
+            <span>כישורי חיים</span>
+            <span>למידה מבוססת פרויקטים</span>
+          </div>
+        </div>
+        <div class="split__media">
+          <img src="assets/img-05.jpg" alt="תכנית סולם — משחקי הקצב">
+          <img class="split__img2" src="assets/photo-boy.png" alt="תלמידים מנגנים במקלדת צבעונית בחוץ">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ מוסיקה לכולם ============ -->
+<section class="sec sec--alt" id="music">
+    <div class="cornermark" aria-hidden="true"><span class="cornermark__name">משחקי <b>הקצב</b></span><div class="cornermark__tree"></div></div>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="split">
+        <div class="split__text">
+          <span class="badge"><span class="dot"></span>תכנית מספר - 55523 במאגר גפ״ן</span>
+          <h2>מוסיקה לכולם</h2>
+          <!-- תוכן יתווסף בהמשך (כמו בסולם): eyebrow / lead / tags -->
+        </div>
+        <!-- שמור מקום לתמונה, בדיוק כמו בסולם:
+        <div class="split__media">
+          <img src="assets/img-06.jpg" alt="מוסיקה לכולם">
+        </div>
+        -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ חוגים ============ -->
+<section class="sec" id="hugim">
+    <div class="cornermark" aria-hidden="true"><span class="cornermark__name">משחקי <b>הקצב</b></span><div class="cornermark__tree"></div></div>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">מותאם אישית</div>
+      <h2>חוגי מוסיקה לאוכלוסיות מגוונות</h2>
+      <p class="lead">חוגי מוסיקה בהתאמה אישית, למגוון של צרכים ייחודיים — מוטוריים, קוגניטיביים ורגשיים, תוך הבנה מערכתית של הצרכים בארגוני שיקום וטיפול.</p>
+      <ul class="bullets">
+        <li>טכנולוגיה חדשנית המאפשרת לכל אחד לנגן</li>
+        <li>תכנון שנתי לחוג בהתאמה אישית לכל אחד ואחת מהמשתתפים ולבקשת המוסד המזמין</li>
+        <li>הרכבים מוסיקליים בדירות בקהילה</li>
+        <li>ניסיון של מעל עשור בהכשרת מורים למוסיקה בתחום המוסיקה הקהילתית</li>
+      </ul>
+      <p class="highlight">לפי <em>אדם</em>, לא לפי אבחנה.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ יצירת קשר ============ -->
+<section class="contact" id="contact">
+    <div class="cornermark" aria-hidden="true"><span class="cornermark__name">משחקי <b>הקצב</b></span><div class="cornermark__tree"></div></div>
+  <div class="wrap">
+    <div class="reveal">
+      <div class="eyebrow">בואו נדבר</div>
+      <h2>רוצים לשמוע עוד?</h2>
+      <p class="lead">השאירו פרטים ונחזור אליכם. לא תקבלו שיחות ממוקד מכירות — רק זיו.</p>
+
+      <!-- כדי שהטופס יעבוד אוטומטית באחסון Netlify: name + data-netlify -->
+      <form class="form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" id="leadForm">
+        <input type="hidden" name="form-name" value="contact">
+        <p style="display:none"><label>אל תמלאו: <input name="bot-field"></label></p>
+        <input type="text" name="name" placeholder="שם מלא" required>
+        <input type="tel" name="phone" placeholder="טלפון" required>
+        <textarea name="message" placeholder="במה נוכל לעזור? (לא חובה)"></textarea>
+        <button type="submit" class="btn">שלחו לי הודעה</button>
+      </form>
+
+      <div class="contact__or">או</div>
+      <a class="wa" href="https://wa.me/972509425959?text=היי%2C%20ראיתי%20את%20האתר%20ואשמח%20לשמוע%20עוד" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.51 5.26l-.999 3.648 3.748-.755zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+        לדבר בוואטסאפ
+      </a>
+
+      <div class="reach">
+        <span>טלפון: <a href="tel:0509425959" dir="ltr">050-942-5959</a></span>
+        <span>מייל: <a href="mailto:hello@notjustmusic.co.il">hello@notjustmusic.co.il</a></span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <b>משחקי הקצב</b>
+  <div class="fl">שיעורים לחיים · מצמיחים חינוך אחר · notjustmusic.co.il</div>
+</footer>
+
+<!-- floating whatsapp -->
+<a class="fab" href="https://wa.me/972509425959?text=היי%2C%20ראיתי%20את%20האתר" target="_blank" rel="noopener" aria-label="וואטסאפ">
+  <svg viewBox="0 0 24 24" fill="#06351a"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.82 9.82 0 001.51 5.26l-.999 3.648 3.748-.755zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
